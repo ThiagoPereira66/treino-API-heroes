@@ -1,0 +1,55 @@
+.cabecalho{
+    width: 100%;
+    display: flex;   
+    justify-content: space-between; 
+    margin-bottom: .8rem;    
+}
+
+
+.input{        
+    width: 50%;    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 .5rem;
+    
+}
+
+input{
+    padding: .5rem 1rem;
+    width: 80%;
+    border: 1px solid rgb(70, 68, 68);
+    border-radius: 1rem;
+    background: none;
+    color: whitesmoke;
+}
+
+h1{
+    color: rgb(95, 93, 93);
+}
+
+span{
+    color: rgb(196, 35, 35);
+}
+
+.busca{
+    width: 10%;
+    padding: .5rem 0;
+    border-radius: 1rem;
+    cursor: pointer;
+    border: 1px solid rgb(70, 68, 68);
+    background: none;
+    color: rgb(95, 93, 93);
+    transition: .4s;
+}
+
+.busca:hover{
+    box-shadow: 0 0 10px 0 white;
+    border: transparent;
+}
+
+.busca:active{
+    background: rgb(136, 30, 30);
+    color: white;
+    box-shadow: none;
+}
